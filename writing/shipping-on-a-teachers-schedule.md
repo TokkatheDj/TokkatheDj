@@ -30,6 +30,13 @@ Then a **weekly health check** keeps the list honest: unpushed work, sites that 
 builds the host skipped, failed CI, and private details added to public repos. Whatever it
 finds becomes a step on the list.
 
+It has grown since, each time because something slipped past it. "The site answers" turned
+out not to mean "the site works", so it now opens every page and game — 75 of them — in a
+real browser on a tablet-sized screen; that found a game tile leading to a 404 and a 30 MB
+music app that took 13 seconds to appear. It flags work left *uncommitted* for a week, after a
+server fix and a whole folder of code were found living only on disk. And it watches the
+nightly backups, which now also keep every local repo's history on the *other* drive.
+
 The first evening it existed, it shipped a backlog of fixes across nine projects — each one
 verified live.
 
@@ -72,9 +79,9 @@ in the runner instead of something I improvise.
 took about 30 minutes to export a 9-minute edit with 97 cuts. Every cut was decoding the
 video from the beginning up to that cut, so the work grew with *cuts × length*. Giving each
 cut its own seeked input took it to 4 minutes — but the first version ran out of memory at
-97 inputs, which only a full-size test on the real edit showed. The final version is checked
-frame-for-frame against the old one, and steps back to the old path when there are too many
-cuts to hold in memory.
+97 inputs, which only a full-size test on the real edit showed. The final version was checked
+frame by frame against the old one (same frame count, every frame at least 49 dB PSNR), and
+steps back to the old path when there are too many cuts to hold in memory.
 
 **8. A maths tool that taught the wrong answer.** A balance-scale manipulative treated *x* as
 weighing nothing, so `x + 2 = 5` said `x = 5`. For a tool students use, that's the worst
