@@ -33,7 +33,8 @@ on either side, with fractions and negatives — and has the tests to prove it.
 **[VR Math Rooms](https://github.com/TokkatheDj/vr-apps)** · [open on a Quest](https://tokkathedj.github.io/vr-apps/)
 Three WebXR rooms for teaching in a Meta Quest headset: plot points and read off slope and
 the line's equation, stand on y = mx + b and feel the hill change as m does, and sort a
-month's expenses into 50 / 30 / 20 — rebalanced so it can be done at every income level.
+month's expenses into 50 / 30 / 20 — which balances at $3,200 and $4,500 but never at
+$2,400, where even the cheapest needs take 66% of take-home pay: the rule assumes slack.
 A-Frame, one HTML file per room, no build step; walking blinks instead of gliding, to spare
 stomachs. Checked by script on a real GPU: clicking (3, −9) plots (3, −9), above the floor.
 
