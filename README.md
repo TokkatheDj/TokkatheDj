@@ -21,7 +21,7 @@ Exporting a real 97-cut edit went from about 30 minutes to 4 once each cut decod
 own span — verified frame-for-frame against the old output.
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
-53 party, carnival and kids' games in one searchable catalog, no install. Its Math Worksheets
+54 party, carnival and kids' games in one searchable catalog, no install. Its Math Worksheets
 grade by mathematical *value*, not exact text — `2(x+3)` is accepted for `2x+6` — using a
 small polynomial-equivalence checker with no libraries.
 
@@ -29,6 +29,13 @@ small polynomial-equivalence checker with no libraries.
 Interactive manipulatives for students: algebra tiles, balance scale, fractions, number line,
 place value, probability. React, Vite, TypeScript, Tailwind. The balance scale solves for x
 on either side, with fractions and negatives — and has the tests to prove it.
+
+**[VR Math Rooms](https://github.com/TokkatheDj/vr-apps)** · [open on a Quest](https://tokkathedj.github.io/vr-apps/)
+Three WebXR rooms for teaching in a Meta Quest headset: plot points and read off slope and
+the line's equation, stand on y = mx + b and feel the hill change as m does, and sort a
+month's expenses into 50 / 30 / 20 — rebalanced so it can be done at every income level.
+A-Frame, one HTML file per room, no build step; walking blinks instead of gliding, to spare
+stomachs. Checked by script on a real GPU: clicking (3, −9) plots (3, −9), above the floor.
 
 Also: a phone app for a roadside-assistance business that shows which call channel actually
 pays per hour worked, including drive time and dead runs (client work, private).
