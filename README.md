@@ -18,7 +18,7 @@ violations on every page, for every role, in both.
 Edit long-form video and podcasts by editing the transcript. Runs entirely on your own
 machine — no cloud, no subscription, no account. Python, FastAPI, Whisper, FFmpeg; pytest suite.
 Exporting a real 97-cut edit went from about 30 minutes to 4 once each cut decoded only its
-own span — verified frame-for-frame against the old output.
+own span — checked frame by frame against the old output (same frame count, every frame ≥ 49 dB PSNR).
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
 54 party, carnival and kids' games in one searchable catalog, no install. Its Math Worksheets
