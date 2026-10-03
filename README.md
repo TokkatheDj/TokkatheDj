@@ -45,4 +45,4 @@ pays per hour worked, including drive time and dead runs (client work, private).
 
 **[Shipping on a teacher's schedule](writing/shipping-on-a-teachers-schedule.md)** — how a
 one-page list, a Y/N runner and a weekly health check got a backlog of fixes across nine
-projects live in one evening, and the eight things that broke on the way.
+projects live in one evening, and the eleven things that broke on the way.

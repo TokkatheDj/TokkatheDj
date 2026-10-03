@@ -88,6 +88,28 @@ weighing nothing, so `x + 2 = 5` said `x = 5`. For a tool students use, that's t
 possible bug. It now solves properly, with fractions and negatives, and the tests include the
 three wrong answers it used to give.
 
+**9. My own profile overstated something.** It said the HR demo had zero accessibility
+violations on every page, for every role, in both themes. That came from a sweep of every
+page in the menu, but it never opened a detail page: one person's profile, one job opening,
+one assessment. A fresh sweep that did (136 scans) found four kinds of detail page failing. Worse, it found
+something no scanner flags: rows in the People directory opened on a mouse click only, so a
+keyboard user couldn't open anyone's profile at all. All fixed, and the weekly check now
+re-runs the full sweep, so the sentence on my profile is tested rather than remembered.
+
+**10. Merged isn't deployed.** The fix for #9 merged cleanly, and the runner reported the
+step as *failed* anyway. The live check had swept the real site and found the old problems
+still there. That app is deployed by command, not on merge (switched that way in August to stop
+broken preview builds, and forgotten by the time it mattered). This is exactly the case the "how do you know it worked?" field
+exists for. The list's own tests now refuse a step that merges into a repo like that
+without also deploying it, and the health check notices when a live site is behind its code.
+
+**11. A finished step that would have done harm twice.** A step that moved the demo's dates
+forward eight weeks, on the live database, had completed by hand but was still listed as
+*failed*, so one Y would have offered it again. It never ran twice, but now any waiting step
+that changes production must carry a guard that refuses once the change is already made.
+And the runner itself got its own tests: I re-created nine of its past and possible bugs on
+a scratch copy, one at a time, to make sure the tests catch each one.
+
 ## What I'd tell another teacher who codes
 
 - **Make "done" mean verified.** A green exit code isn't shipped. Check the thing people use.
