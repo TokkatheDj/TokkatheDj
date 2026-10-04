@@ -110,6 +110,19 @@ that changes production must carry a guard that refuses once the change is alrea
 And the runner itself got its own tests: I re-created nine of its past and possible bugs on
 a scratch copy, one at a time, to make sure the tests catch each one.
 
+**12. My own maths tools were grading wrong.** #8 was one bug in one tool, so I audited every
+place my sites grade an answer or do a calculation a student trusts. The worst was an answer
+checker shared by three worksheet pages: it counted anything *contained* in the answer, so
+"2" passed for "x = 25", and it read "3/4" as 34. To measure it rather than argue about it, I
+took every one of the 1,007 real problems, generated answers a student would rightly type and
+plausible wrong ones (off by one, a digit dropped, ten times too big), and ran them through
+the page's own checker: it accepted **716 of 1,856 wrong answers**. The rewrite accepts none
+and rejects none of the right ones. The same audit found a credit-card lesson telling students
+a $5,000 balance would "never" be paid off (it takes 35 years), quizzes marking 7.9 correct
+for 7, a calculator whose "log" key gave 4.605 for log(100), and the kids' maths tile accepting
+2222 for 2221. Every fix now has a test that runs weekly against the live site, and each test
+was checked against the old code to prove it would have caught the bug.
+
 ## What I'd tell another teacher who codes
 
 - **Make "done" mean verified.** A green exit code isn't shipped. Check the thing people use.
