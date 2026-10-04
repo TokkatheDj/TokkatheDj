@@ -117,7 +117,7 @@ checker shared by three worksheet pages: it counted anything *contained* in the 
 took every one of the 1,007 real problems, generated answers a student would rightly type and
 plausible wrong ones (off by one, a digit dropped, ten times too big), and ran them through
 the page's own checker: it accepted **716 of 1,856 wrong answers**. The rewrite accepts none
-and rejects none of the right ones. The same audit found a credit-card lesson telling students
+of them, and none of the 1,699 right answers in the same test is rejected. The same audit found a credit-card lesson telling students
 a $5,000 balance would "never" be paid off (it takes 35 years), quizzes marking 7.9 correct
 for 7, a calculator whose "log" key gave 4.605 for log(100), and the kids' maths tile accepting
 2222 for 2221. Every fix now has a test that runs weekly against the live site, and each test
