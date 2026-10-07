@@ -21,7 +21,7 @@ Exporting a real 97-cut edit went from about 30 minutes to 4 once each cut decod
 own span — checked frame by frame against the old output (same frame count, every frame ≥ 49 dB PSNR).
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
-54 party, carnival and kids' games in one searchable catalog, no install. Its Math Worksheets
+55 party, carnival and kids' games in one searchable catalog, no install. Its Math Worksheets
 grade by mathematical *value*, not exact text — `2(x+3)` is accepted for `2x+6` — using a
 small polynomial-equivalence checker with no libraries.
 
