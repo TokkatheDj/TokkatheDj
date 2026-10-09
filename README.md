@@ -6,6 +6,16 @@ tests on the maths, accessibility, and writing down why a decision was made.
 
 ### Selected work
 
+**Amigo** · code private · [write-up](writing/believe-the-photograph.md)
+A local-only AI assistant for my house: nothing leaves the building. Language models run on
+a desktop GPU (Ollama), speech goes in and out locally (faster-whisper, Piper), and one chat
+page works hands-free from a phone. Around it are a microcontroller on the desk (button, buzzer,
+LED strip, motion sensor), a Raspberry Pi front door that wakes the desktop when it's needed
+and covers for it with a small model, a smartwatch face, smart lights, and games for my kids.
+The server is plain Python with no framework. Amigo keeps a dated engineering log of what
+broke and why, and a self-check that catches the server freezing and restarts it. A "ship it"
+list runs each deploy step from my phone, then checks the live result.
+
 **[Canopy HR](https://github.com/TokkatheDj/canopy-hr)** · [live demo](https://canopy-hr.vercel.app)
 A complete HR platform: people records, hiring pipeline, onboarding, time off, timesheets,
 simulated payroll and benefits, performance reviews, anonymous eNPS surveys, reporting.
@@ -46,3 +56,7 @@ pays per hour worked, including drive time and dead runs (client work, private).
 **[Shipping on a teacher's schedule](writing/shipping-on-a-teachers-schedule.md)** — how a
 one-page list, a Y/N runner and a weekly health check got a backlog of fixes across nine
 projects live in one evening, and the twelve things that broke on the way.
+
+**[Believe the photograph](writing/believe-the-photograph.md)** — three bugs from Amigo that
+passed every test I had, what finally caught each one, and the thing my sons found in
+one round.
