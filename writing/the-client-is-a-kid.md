@@ -70,8 +70,9 @@ detail. It was worse on the one thing he cared about, which was that it was
 
 My first move overcorrected. I put the actual pixel art on the screen, scaled
 up and crisp, with the animation rebuilt to move in whole pixels like the
-original GIFs. It was faithful, and it was blocky on a large screen. The next
-note fixed that: smooth it out — round the head, the eyes and the mouth.
+original GIFs. It was faithful, and it was blocky on a large screen. So I asked
+for the obvious next thing: smooth it out — round the head, the eyes and the
+mouth.
 
 ## Round 5: his frog, drawn better
 
@@ -85,10 +86,12 @@ and closes.
 The character stayed the same and only the drawing changed, which was what had
 been asked for all along.
 
-The background went the same way. I offered four options. The rainforest at
-night won: swaying leaves, drifting fireflies, the coquí's real home. "Make it
-blue instead of green" took one change to a colour table. The next message was,
-in full, "SOOOO GOOOD".
+The background went the same way. There were four options on the table and I
+picked the rainforest at night: swaying leaves, drifting fireflies, the coquí's
+real home. My "make it blue instead of green" took one change to a colour
+table. My next message was, in full, "SOOOO GOOOD". By the end of the evening
+the client and I were giving feedback at about the same reading level, which
+is a decent sign the loop was short enough.
 
 The same drawing now runs on my watch, rendered from the same shapes so the two
 match.
