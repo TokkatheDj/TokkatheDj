@@ -60,3 +60,7 @@ projects live in one evening, and the twelve things that broke on the way.
 **[Believe the photograph](writing/believe-the-photograph.md)** — three bugs from Amigo that
 passed every test I had, what finally caught each one, and the thing my sons found in
 one round.
+
+**[The client is a kid](writing/the-client-is-a-kid.md)** — redesigning Amigo's face in one
+evening: five versions tuned to my own taste, then one sentence from my son that pointed at
+the reference I'd ignored, and what that changes about designing for students.
