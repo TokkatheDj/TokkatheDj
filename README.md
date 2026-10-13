@@ -13,8 +13,10 @@ page works hands-free from a phone. Around it are a microcontroller on the desk 
 LED strip, motion sensor), a Raspberry Pi front door that wakes the desktop when it's needed
 and covers for it with a small model, a smartwatch face, smart lights, and games for my kids.
 The server is plain Python with no framework. Amigo keeps a dated engineering log of what
-broke and why, and a self-check that catches the server freezing and restarts it. A "ship it"
-list runs each deploy step from my phone, then checks the live result.
+broke and why, and a self-check that catches the server freezing and restarts it. A status
+page on the Pi says what needs a person (a missed morning step, an overdue backup, a broken
+new app) and nothing leaves the house. A "ship it" list runs each deploy step from my phone,
+then checks the live result.
 
 **[Canopy HR](https://github.com/TokkatheDj/canopy-hr)** · [live demo](https://canopy-hr.vercel.app)
 A complete HR platform: people records, hiring pipeline, onboarding, time off, timesheets,
@@ -31,7 +33,10 @@ Exporting a real 97-cut edit went from about 30 minutes to 4 once each cut decod
 own span — checked frame by frame against the old output (same frame count, every frame ≥ 49 dB PSNR).
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
-64 party, carnival and kids' games in one searchable catalog, no install. Its Math Worksheets
+64 party, carnival and kids' games in one searchable catalog, no install. Every new app is
+played each night by a test that waits, presses Start and plays on a phone and a tablet
+screen; one that passes, and that a person has played, goes live in one tap
+([why](writing/tests-that-play-the-game.md)). Its Math Worksheets
 grade by mathematical *value*, not exact text — `2(x+3)` is accepted for `2x+6` — using a
 small polynomial-equivalence checker with no libraries.
 
