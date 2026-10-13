@@ -68,3 +68,7 @@ the reference I'd ignored, and what that changes about designing for students.
 **[Three ways a working system stops working](writing/three-ways-a-working-system-stops-working.md)**
 — a week of keeping Amigo's server up: crashes that were deploys, two safety nets switching
 each other off, and an answer lost to a connection that died two seconds after a wake.
+
+**[Tests that play the game](writing/tests-that-play-the-game.md)** — three checks said a
+game was fine; playing it for fifteen seconds said otherwise. A nightly test that plays every new
+app, the one-in-ten it first missed, and a cat voice that never made a sound.
