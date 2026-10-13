@@ -64,3 +64,7 @@ one round.
 **[The client is a kid](writing/the-client-is-a-kid.md)** — redesigning Amigo's face in one
 evening: five versions tuned to my own taste, then one sentence from my son that pointed at
 the reference I'd ignored, and what that changes about designing for students.
+
+**[Three ways a working system stops working](writing/three-ways-a-working-system-stops-working.md)**
+— a week of keeping Amigo's server up: crashes that were deploys, two safety nets switching
+each other off, and an answer lost to a connection that died two seconds after a wake.
