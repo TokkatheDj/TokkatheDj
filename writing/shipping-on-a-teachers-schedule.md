@@ -31,7 +31,7 @@ builds the host skipped, failed CI, and private details added to public repos. W
 finds becomes a step on the list.
 
 It has grown since, each time because something slipped past it. "The site answers" turned
-out not to mean "the site works", so it now opens every page and game — 75 of them — in a
+out not to mean "the site works", so it now opens every page and game — 145 of them by mid-October — in a
 real browser on a tablet-sized screen; that found a game tile leading to a 404 and a 30 MB
 music app that took 13 seconds to appear. It flags work left *uncommitted* for a week, after a
 server fix and a whole folder of code were found living only on disk. And it watches the
