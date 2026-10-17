@@ -35,7 +35,7 @@ Exporting a real 97-cut edit went from about 30 minutes to 4 once each cut decod
 own span — checked frame by frame against the old output (same frame count, every frame ≥ 49 dB PSNR).
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
-74 party, carnival and kids' games in one searchable catalog, no install. Every new app is
+75 party, carnival and kids' games in one searchable catalog, no install. Every new app is
 played each night by a test that waits, presses Start and plays on a phone and a tablet
 screen; one that passes, and that a person has played, goes live in one tap
 ([why](writing/tests-that-play-the-game.md)). Its Math Worksheets
