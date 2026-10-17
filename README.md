@@ -60,6 +60,10 @@ pays per hour worked, including drive time and dead runs (client work, private).
 
 ### Writing
 
+**[Every page said 200 OK](writing/every-page-said-200.md)** — auditing my own kids' apps:
+two copies that drifted, six apps installing with a blank icon, a quiz that taught a rule
+backwards, three dead tiles, and a risk I overstated, each with the check that now catches it.
+
 **[Shipping on a teacher's schedule](writing/shipping-on-a-teachers-schedule.md)** — how a
 one-page list, a Y/N runner and a weekly health check got a backlog of fixes across nine
 projects live in one evening, and the twelve things that broke on the way.
