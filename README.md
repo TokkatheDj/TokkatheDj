@@ -60,6 +60,11 @@ pays per hour worked, including drive time and dead runs (client work, private).
 
 ### Writing
 
+**[The check that deleted everything](writing/the-check-that-deleted-everything.md)** — a
+pre-commit safety check that ran inside the repository it guarded and recorded 1,794 files
+as deleted, how it was caught before merge, why the first fix lasted two days, and fixing
+it where it enters.
+
 **[Every page said 200 OK](writing/every-page-said-200.md)** — auditing my own kids' apps:
 two copies that drifted, six apps installing with a blank icon, a quiz that taught a rule
 backwards, three dead tiles, and a risk I overstated, each with the check that now catches it.
