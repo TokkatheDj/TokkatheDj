@@ -31,6 +31,8 @@ and 16. Rows 21 and up were past the end of the Pico and connected to nothing.
 Both numbers were correct; they were just counting different things, and only
 one of them was printed on the thing in my hand.
 
+![The breadboard with the Pico covering printed rows 1 to 20. Its pin numbers run 40 down to 21 beside them, so pin 25 sits at row 16 and pin 23 at row 18. Rows 21 to 25, where the wires went, connect to nothing.](img/printed-rows.svg)
+
 Every guide now gives the printed row numbers, with the board drawn the way it
 actually sits on my desk. The rule I took from it is simple: **give
 instructions in the labels the reader can see.** A pin number is a fact about
