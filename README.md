@@ -8,7 +8,7 @@ tests on the maths, accessibility, and writing down why a decision was made.
 
 ### Selected work
 
-**Amigo** · code private · [write-up](writing/believe-the-photograph.md)
+**Amigo** · code private · [write-up](writing/believe-the-photograph.md) · [the desk coquí](writing/count-the-printed-rows.md)
 A local-only AI assistant for my house: nothing leaves the building. Language models run on
 a desktop GPU (Ollama), speech goes in and out locally (faster-whisper, Piper), and one chat
 page works hands-free from a phone. Around it are a microcontroller on the desk (button, buzzer,
@@ -59,6 +59,11 @@ Also: a phone app for a roadside-assistance business that shows which call chann
 pays per hour worked, including drive time and dead runs (client work, private).
 
 ### Writing
+
+**[Count the printed rows](writing/count-the-printed-rows.md)** — building a talking frog
+for my sons as a circuits novice: wiring guides that counted the wrong thing, a remote from the
+wrong table, a stop button that passed its test and ruined the voice, and why the part on the
+desk always beats its description.
 
 **[The check that deleted everything](writing/the-check-that-deleted-everything.md)** — a
 pre-commit safety check that ran inside the repository it guarded and recorded 1,794 files
