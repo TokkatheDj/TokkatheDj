@@ -1,21 +1,28 @@
 # Count the Printed Rows
 
-*Building a talking frog for my sons as a circuits novice, and why the object on
-the desk always wins.*
+*What working with an AI looks like when you're not the expert: my job was to
+be the one who checks.*
 
 On my desk there's a breadboard with a Raspberry Pi Pico on it, and the Pico is
 a coquí: the tiny Puerto Rican frog that's also the face of Amigo, the local AI
 assistant I built for my house. Press its button and it answers in one or two
-playful sentences, as a frog who wants to be an astronaut. Recently it grew a button for each of my sons, an arm that waves when it talks,
-and an infrared remote that starts games on the LED strip.
+playful sentences, as a frog who wants to be an astronaut. Recently it grew a
+button for each of my sons, an arm that waves when it talks, and an infrared
+remote that starts games on the LED strip.
 
-I teach maths. I am not an electronics person. As with the rest of Amigo, an AI
-assistant wrote the firmware, the desktop code and the step-by-step wiring
-guides, working from my direction. In software that partnership has a safety
-net: tests catch most of the assistant's mistakes before I see them. In
-hardware the net had a hole in it. Almost every problem in this build came
-from the gap between a *description* of a part and the *part itself*. The
-description was usually confident and the part was usually right.
+I should be clear about who did what. I teach maths. I am not an electronics
+person. An AI assistant wrote the firmware, the desktop code and the
+step-by-step wiring guides. It was fast, it was thorough, and it was
+confident, including the times it was wrong.
+
+That's the part this piece is about. When you work with an AI on something
+you're not an expert in, it's tempting to think your job is to ask good
+questions. Mostly it isn't. Your job is to be the one who checks: to hold the
+AI's confident description up against the thing actually in front of you, and
+to notice when they don't match. In software, tests do a lot of that checking.
+On a breadboard, it was me. Every problem below was a confident description
+that didn't match the part on the desk. Every fix started with someone looking
+at the real thing.
 
 ---
 
@@ -120,29 +127,37 @@ note from the listener, "a little fast", and the voice now runs at 0.9 speed.
 
 ---
 
-## What I'd do differently
+## What the checking looked like
 
-**Ask for a photo before the guide, not after.** Two of the six problems
-dissolved the moment a picture showed what was actually on the desk. With an
-AI pair writing the instructions, a photo is the cheapest test there is.
+None of the six fixes needed me to know more electronics than the AI. They
+needed me to check, in a handful of plain ways.
 
-**Describe what the reader can see.** Printed rows, not pin numbers. Wire
-colours, not signal names. The wiring guides are now pictures first, because
-I'm the reader and I'm a novice.
+**Look at the real thing.** A dead button, a remote that started the wrong
+game, a "button" that stayed down. Each time, the AI's description was
+confident and the part on the desk disagreed, and the part was right.
 
-**Read values off the real thing.** Key codes, which way the servo sits, which
-button is which. The device is the specification.
+**Show it, don't describe it.** Two of the six problems dissolved the moment I
+sent a photo. A picture is the cheapest test there is, and it's the one an AI
+can't argue with.
 
-**Build it sturdy before you build it clever.** The fun parts are the games and
-the voice. None of that matters if a button falls out.
+**Read values off the device.** Key codes, which way the servo sits, which
+button is which. A table from the internet describes *a* remote. The one in my
+hand is the specification.
 
-**Let the listener have the last word.** A passing test told me the stop button
-worked. Listening told me it had ruined the voice.
+**Decide what "done" means yourself.** The flimsy buttons worked. I still said
+no, because I know who's going to be pressing them and how hard. The AI can't
+know that, and it shouldn't be the one to decide.
 
-This carries into my classroom, where I write instructions for a living. The
-student is always holding the actual worksheet, the actual calculator, the
-actual breadboard. Instructions that point at what's in front of them work;
-instructions that point at what's in the textbook sometimes don't.
+**Don't take "it passed" as the last word.** The stop button passed its test
+and sounded terrible. A check that runs by itself can only test what someone
+thought to write down. My ears tested what mattered.
+
+I don't think any of that is specific to frogs or breadboards. It's what I
+already ask of my students: check your answer against what's actually in front
+of you, not against what you expected to see. Working with an AI just puts me
+on the other side of that. It does the confident first draft quickly. My job
+is the part a student learns last and needs most, which is noticing when the
+confident answer is wrong.
 
 ---
 

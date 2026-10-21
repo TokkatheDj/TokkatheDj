@@ -61,9 +61,8 @@ pays per hour worked, including drive time and dead runs (client work, private).
 ### Writing
 
 **[Count the printed rows](writing/count-the-printed-rows.md)** — building a talking frog
-for my sons as a circuits novice: wiring guides that counted the wrong thing, a remote from the
-wrong table, a stop button that passed its test and ruined the voice, and why the part on the
-desk always beats its description.
+for my sons with an AI when I'm not the expert: six times its confident answer didn't match the
+part on the desk, and why my job was to be the one who checks.
 
 **[The check that deleted everything](writing/the-check-that-deleted-everything.md)** — a
 pre-commit safety check that ran inside the repository it guarded and recorded 1,794 files
