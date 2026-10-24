@@ -33,6 +33,9 @@ Edit long-form video and podcasts by editing the transcript. Runs entirely on yo
 machine — no cloud, no subscription, no account. Python, FastAPI, Whisper, FFmpeg; pytest suite.
 Exporting a real 97-cut edit went from about 30 minutes to 4 once each cut decoded only its
 own span — checked frame by frame against the old output (same frame count, every frame ≥ 49 dB PSNR).
+It finds the "um"s Whisper tidies away: scored by time against a hand-marked recording, a
+verbatim model caught 53 of 76 where Whisper caught 0 — after a guard stopped it looping
+([findings](https://github.com/TokkatheDj/paper-edit/blob/main/FINDINGS.md#5-a-verbatim-model-finds-fillers-whisper-hides-22-oct-2026)).
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
 86 party, carnival and kids' games in one searchable catalog, no install. Every new app is
