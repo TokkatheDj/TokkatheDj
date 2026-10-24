@@ -38,7 +38,7 @@ verbatim model caught 53 of 76 where Whisper caught 0 — after a guard stopped 
 ([findings](https://github.com/TokkatheDj/paper-edit/blob/main/FINDINGS.md#5-a-verbatim-model-finds-fillers-whisper-hides-22-oct-2026)).
 
 **[Games Arcade](https://github.com/TokkatheDj/party-command-games)** · [play](https://tokkathedj.github.io/party-command-games/)
-86 party, carnival and kids' games in one searchable catalog, no install. Every new app is
+87 party, carnival and kids' games in one searchable catalog, no install. Every new app is
 played each night by a test that waits, presses Start and plays on a phone and a tablet
 screen; one that passes, and that a person has played, goes live in one tap
 ([why](writing/tests-that-play-the-game.md)). Its Math Worksheets
