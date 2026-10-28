@@ -95,3 +95,8 @@ each other off, and an answer lost to a connection that died two seconds after a
 **[Tests that play the game](writing/tests-that-play-the-game.md)** — three checks said a
 game was fine; playing it for fifteen seconds said otherwise. A nightly test that plays every new
 app, the one-in-ten it first missed, and a cat voice that never made a sound.
+
+**[Giving a game its voice](writing/giving-a-game-its-voice.md)** — a maths game for my
+five- and three-year-old where Amigo had to sound like Amigo: his real voice recorded into
+one file, the trim that turned "Hi" into "Oh", why whole lines beat stitched-on numbers,
+and a deploy step that quietly vanished.
