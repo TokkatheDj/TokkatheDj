@@ -100,3 +100,7 @@ app, the one-in-ten it first missed, and a cat voice that never made a sound.
 five- and three-year-old where Amigo had to sound like Amigo: his real voice recorded into
 one file, the trim that turned "Hi" into "Oh", why whole lines beat stitched-on numbers,
 and a deploy step that quietly vanished.
+
+**[The test browser has no address bar](writing/the-test-browser-has-no-address-bar.md)** — every
+check passed while a game's bottom row sat under a real phone's toolbar: the check that imitates
+the phone, the four false alarms it raised first, and why a tool can cause the fault it reports.
