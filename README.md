@@ -104,3 +104,7 @@ and a deploy step that quietly vanished.
 **[The test browser has no address bar](writing/the-test-browser-has-no-address-bar.md)** — every
 check passed while a game's bottom row sat under a real phone's toolbar: the check that imitates
 the phone, the four false alarms it raised first, and why a tool can cause the fault it reports.
+
+**[The generators nobody could see](writing/the-generators-nobody-could-see.md)** — an
+accessibility rule that didn't move the number, fourteen app generators a listing never showed,
+moving nine of them to one place, and why every app looked and sounded the same.
