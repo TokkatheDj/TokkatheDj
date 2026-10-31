@@ -108,3 +108,7 @@ the phone, the four false alarms it raised first, and why a tool can cause the f
 **[The generators nobody could see](writing/the-generators-nobody-could-see.md)** — an
 accessibility rule that didn't move the number, fourteen app generators a listing never showed,
 moving nine of them to one place, and why every app looked and sounded the same.
+
+**[The car that corrected its simulator](writing/the-car-that-corrected-its-simulator.md)** — a
+robot car whose software passed 33 simulated checks before the kit arrived, the floor failures
+that took it to 85, and the two times the simulator was too kind to catch anything.
