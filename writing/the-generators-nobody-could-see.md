@@ -139,9 +139,33 @@ variety, name the options and rotate them.
 | Contrast failures | a vague rule | two exact patterns | reading the colours, not the totals |
 | Same-looking apps | bad luck | no direction at all | measuring 628 apps |
 
-The accessibility re-count and the first identity count run on 1 November, the first
-nights where every new app comes from a generator with both blocks. I'll add the numbers
-here, whichever way they go.
+## The numbers, 1 November
+
+The re-count ran on 1 November, from the nightly check's own results. Both samples are
+small, so treat these as early signs rather than final answers.
+
+**Accessibility.** Of the apps made before the fixed muted colour went in, 6 of 22 failed
+the axe scan (27%), in line with the flat 22-24% the earlier counts showed. Of the 35
+made after it, **2 failed (6%)**. Both were contrast failures again, in two apps made
+the same evening. Contrast is still the thing to watch, but it's now the exception.
+
+**Identity.** Nine generator apps were dated 30-31 October, the first two days of the
+style cards.
+
+| | 628 October apps (before) | 9 apps, 30-31 Oct (after) |
+|---|---|---|
+| top font | Segoe UI 47% | four fonts tied at 22% each |
+| Segoe UI | 47% | none |
+| tagged with a style and sound | 0% | 7 of 9 |
+
+The top font is just over the 20% target I set, and with nine apps that's two apps, so
+it says more about the sample size than about a pattern. The two untagged apps both came
+from the adult puzzle generator. Its routine on the machine that runs the generators
+does carry the style cards, so the likeliest cause is an older copy of that task still
+running elsewhere, with the prompt from before the cards. That's the next thing to switch
+off. One thing to watch: four of the seven tagged apps picked the same sound kit,
+Woodblock. The rotation only avoids what the *same category* used recently, so different
+categories can still all land on one kit.
 
 ---
 
