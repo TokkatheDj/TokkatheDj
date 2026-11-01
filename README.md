@@ -112,3 +112,7 @@ moving nine of them to one place, and why every app looked and sounded the same.
 **[The car that corrected its simulator](writing/the-car-that-corrected-its-simulator.md)** — a
 robot car whose software passed 33 simulated checks before the kit arrived, the floor failures
 that took it to 85, and the two times the simulator was too kind to catch anything.
+
+**[The light that said yes](writing/the-light-that-said-yes.md)** — a Halloween porch show
+where a light's cloud reported every colour while the strip stayed white, a restart that would
+have saved the show's own colours as normal, and 87 groups greeted without stopping the show.
