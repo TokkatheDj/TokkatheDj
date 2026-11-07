@@ -116,3 +116,11 @@ that took it to 85, and the two times the simulator was too kind to catch anythi
 **[The light that said yes](writing/the-light-that-said-yes.md)** — a Halloween porch show
 where a light's cloud reported every colour while the strip stayed white, a restart that would
 have saved the show's own colours as normal, and 87 groups greeted without stopping the show.
+
+**[Player Two](writing/player-two.md)** — adding multiplayer to a kids' space game in a day: a relay
+crash that a stand-in test hid, a laptop session's work one rebuild from being erased, a second device that
+must never save over a kid's own game, and the failing tests that were the test's fault.
+
+**[The second pass](writing/the-second-pass.md)** — re-reading two of my own public-records investigations
+the way the other side would: nineteen corrections, a 2024 appeals ruling the brief had missed since July,
+and why the one-paragraph summary was the worst place for an overclaim.
