@@ -124,3 +124,7 @@ must never save over a kid's own game, and the failing tests that were the test'
 **[The second pass](writing/the-second-pass.md)** — re-reading two of my own public-records investigations
 the way the other side would: nineteen corrections, a 2024 appeals ruling the brief had missed since July,
 and why the one-paragraph summary was the worst place for an overclaim.
+
+**[The test that counts](writing/the-test-that-counts.md)** — the first real play-test of the multiplayer: two kids on one
+tablet found in minutes what about 1,500 checks hadn't, the same-afternoon fix and what it pushed out of
+place, and the test count I had to correct.
