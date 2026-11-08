@@ -6,10 +6,10 @@ correction to my own test count.*
 
 The last write-up, [Player Two](player-two.md), ended with a caveat: everything had been tested in
 simulated browsers, "the boys haven't played it … yet, and that's the test that counts." On Sunday
-8 November they played Squad Leader: Frontier together, one tablet between them: one flying my ship,
-one flying the green co-pilot ship.
+8 November they played Squad Leader: Frontier together, one tablet between them: one flying the main
+ship, one flying the green co-pilot ship.
 
-As before, an assistant wrote the code from my direction. My part was the report from the couch,
+As before, an assistant wrote the code from my direction. My part was the report,
 deciding what "fixed" meant, and running every public deploy myself from the ship kit.
 
 ---
@@ -38,10 +38,10 @@ The new test drives a game on two tablet sizes, turns the co-pilot on and off, a
 things: each player's buttons sit on their own half, nothing overlaps, the layout goes back when
 the co-pilot leaves, and tapping SHIELD in its new place really raises the shield.
 
-The screenshots found what the checks didn't. The canvas draws three things that had quietly
-assumed the buttons lived on the right:
+A screenshot found what the checks didn't, and reading the drawing code found two more. The canvas
+draws three things that had quietly assumed the buttons lived on the right:
 
-- Amigo's message box, which now ran into the LASER button. It now sits above player one's
+- Amigo's message box, which now ran into the LASER button (the screenshot). It now sits above player one's
   buttons, wherever they are. On the smaller tablet, lifting it made it run into P2's missile
   button instead, so in co-op it now fits in the gap between the two players.
 - The boss health bar, which left room on the right for buttons that had moved left.
@@ -91,11 +91,11 @@ run of the day, on the final build, had 30 scripts and no failed checks.
 **Real use is a test the suite can't replace.** About 1,500 checks confirmed the buttons worked. Two
 kids on one tablet found that they worked in the wrong place, within minutes.
 
-**A screenshot is a check.** Each of the three knock-on problems in section 2 showed up in a
-picture before any assertion caught it. Looking at the result is part of testing it.
+**A screenshot is a check.** Two of the overlaps in this story, the message box and the zone name,
+showed up in a picture before any assertion caught them. Looking at the result is part of testing it.
 
 **Fix what was reported, then fix what you noticed.** Keeping the old overlap for its own round
-meant the boys got their fix in ten minutes, and the second fix got its own test.
+meant the boys got their fix within about fifteen minutes, and the second fix got its own test.
 
 **A count is a claim.** "31 of 32" sounded precise and wasn't. The question to ask of any count is
 how the code decided what went into it.
