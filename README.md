@@ -128,3 +128,7 @@ and why the one-paragraph summary was the worst place for an overclaim.
 **[The test that counts](writing/the-test-that-counts.md)** — the first real play-test of the multiplayer: two kids on one
 tablet found in minutes what about 1,500 checks hadn't, the same-afternoon fix and what it pushed out of
 place, and the test count I had to correct.
+
+**[Four learning apps, one engine](writing/four-apps-one-engine.md)** — a case study of the practice apps I
+designed for my own classes, a teacher-test candidate and a preschooler: one shared engine, 70,800 generated
+problems checked, and an AI tutor graded on 48 live replies without giving away an answer.
